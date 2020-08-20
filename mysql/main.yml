@@ -1,0 +1,4 @@
+- hosts: ec2server
+  become: yes
+  roles:
+      - /home/aditya/ansible/mysql/ansible-role-mysql
