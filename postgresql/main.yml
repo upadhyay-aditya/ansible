@@ -1,4 +1,4 @@
 - hosts: ec2server
   become: yes
   roles:
-      - /path/to/dir/ansible-role-postgresql
+      - ./ansible-role-postgresql
